@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioManagement.Models", "PortfolioManagement.Models\PortfolioManagement.Models.csproj", "{6F3D8391-0A1A-49A1-95E0-6D448FCAF137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioManagement.Web", "PortfolioManagement.Web\PortfolioManagement.Web.csproj", "{7B7ABC79-FE66-44CA-8779-DCED668726F0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F3D8391-0A1A-49A1-95E0-6D448FCAF137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3D8391-0A1A-49A1-95E0-6D448FCAF137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3D8391-0A1A-49A1-95E0-6D448FCAF137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3D8391-0A1A-49A1-95E0-6D448FCAF137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B7ABC79-FE66-44CA-8779-DCED668726F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7ABC79-FE66-44CA-8779-DCED668726F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7ABC79-FE66-44CA-8779-DCED668726F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7ABC79-FE66-44CA-8779-DCED668726F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

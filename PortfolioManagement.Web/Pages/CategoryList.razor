@@ -1,0 +1,30 @@
+﻿@page "/"
+@inherits CategoryListBase
+
+<div id='header'>      
+    <div class="personal-info">
+    <h1>Kamil Pakula - About me</h1>        
+    <p>I'm looking for a job as an entry-level (junior / intern) .NET web developer. I've had some experience with Blazor and some other web frameworks. I also like game programming with Unity and 3D modeling with Blender.</p>
+    <p>I like learning new stuff. I like tweaking the code. I like working with people, but I can also work individually.</p>
+        <p>Here are some of my projects...</p>
+
+        <div class="personal-info-links">
+        <a href="https://github.com/prospero-apps" target="blank">
+                <i class="devicon-github-original github-icon"></i>Github
+        </a>
+    </div>        
+    </div>
+    <img class='face-image' src='images/ID Photo.png' alt="face photo" />
+</div>
+
+<div class="sections">
+    @foreach (var category in Categories)
+    {
+        <div class="section">
+            <div class="section-bar">
+                @category.CategoryName
+            </div>            
+        </div>
+    }
+</div>
+

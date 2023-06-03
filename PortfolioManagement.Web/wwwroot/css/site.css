@@ -62,3 +62,73 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+/* CUSTOM STYLES */
+
+/* HEADER */
+#header {
+    background-color: beige;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.personal-info {
+    background-color: white;
+    margin: 1em;
+    padding: 0.5em;
+    padding-top: 0.5em;
+    box-shadow: 2px 2px 3px gray;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(2deg) translateY(-2em);
+    min-width: 500px;
+}
+
+.personal-info p,
+.personal-info h1 {
+    margin: 0.3em;
+}
+
+.personal-info-links {
+    align-self: flex-end;
+}
+
+.personal-info-links a {
+    text-decoration: none;
+}
+
+.face-image {
+    min-width: 100px;
+    max-width: 200px;
+    padding: 20px;
+}
+
+.github-icon {
+    color: black;
+}
+
+/* SECTIONS */
+
+.sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.section-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 0 2em;
+}
